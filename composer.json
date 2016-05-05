@@ -3,9 +3,9 @@
     "require": {
         "chi-teck/drupal-code-generator": "^1.9"
     },
-  "autoload": {
-    "psr-4": {
-      "DrupalCodeGenerator\\": "src"
-    }
-  }
+   "autoload": {
+        "psr-4": {
+            "DrupalCodeGenerator\\": "src"
+       }
+   }
 }
