@@ -16,8 +16,7 @@ $twig_directories[] = DCG_ROOT . '/src/Templates';
 $commands_directories[] = __DIR__ . '/src/Commands';
 $twig_directories[] = __DIR__ . '/src/Templates';
 
-// Register other direcotries (modules, user home dir,  etc.).
-// ...
+// @todo: Register other direcotries (modules, user home dir,  etc.).
 
 // Discover generators.
 $discovery = new GeneratorDiscovery($commands_directories, $twig_directories, new Filesystem());
