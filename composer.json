@@ -1,5 +1,5 @@
 {
-    "name": "chi/dcg-aware-app",
+    "name": "chi-teck/dcg-aware-app",
     "require": {
         "chi-teck/drupal-code-generator": "^1.9"
     },
