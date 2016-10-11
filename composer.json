@@ -1,7 +1,13 @@
 {
-    "name": "chi-teck/dcg-aware-app",
-    "require": {
-        "chi-teck/drupal-code-generator": "^1.9"
+   "name": "chi-teck/dcg-aware-app",
+   "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Chi-teck/drupal-code-generator"
+        }
+   ],
+   "require": {
+        "chi-teck/drupal-code-generator": "dev-development"
     },
    "autoload": {
         "psr-4": {
