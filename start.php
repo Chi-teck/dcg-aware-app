@@ -24,13 +24,7 @@ $generators = $discovery->getGenerators();
 
 // @todo: loop through generators and prefix command names with 'generate:'.
 
-// Create navigation command.
-$navigation = new Commands\Navigation();
-$navigation->init($generators);
-
 // Build application.
 $application = new Application('My App');
 $application->addCommands($generators);
-$application->add($navigation);
-$application->setDefaultCommand('navigation');
 $application->run();
